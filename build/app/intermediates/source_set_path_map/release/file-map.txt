@@ -1,0 +1,15 @@
+com.example.keynotes.app-jetified-window-1.0.0-beta04-0 /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+com.example.keynotes.app-jetified-annotation-experimental-1.1.0-1 /Users/talidahnurkeyesa/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.keynotes.app-core-1.6.0-2 /Users/talidahnurkeyesa/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+com.example.keynotes.app-jetified-window-java-1.0.0-beta04-3 /Users/talidahnurkeyesa/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.keynotes.app-main-4 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/res
+com.example.keynotes.app-release-5 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/release/res
+com.example.keynotes.app-pngs-6 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/generated/res/pngs/release
+com.example.keynotes.app-resValues-7 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/generated/res/resValues/release
+com.example.keynotes.app-rs-8 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/generated/res/rs/release
+com.example.keynotes.app-mergeReleaseResources-9 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.keynotes.app-mergeReleaseResources-10 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.keynotes.app-merged_res-11 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/intermediates/merged_res/release
+com.example.keynotes.app-packaged_res-12 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/fluttertoast/intermediates/packaged_res/release
+com.example.keynotes.app-packaged_res-13 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/path_provider_android/intermediates/packaged_res/release
+com.example.keynotes.app-packaged_res-14 /Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/shared_preferences_android/intermediates/packaged_res/release

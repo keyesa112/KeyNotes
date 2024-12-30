@@ -1,0 +1,4 @@
+#Tue Jun 18 18:02:07 WIB 2024
+base.0=/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

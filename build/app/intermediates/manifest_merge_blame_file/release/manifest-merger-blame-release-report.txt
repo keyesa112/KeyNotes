@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.keynotes"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml
+10    <!-- Tambahan permission lainnya -->
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:5:5-87
+12-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:9:5-81
+13-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:9:22-78
+14
+15    <uses-feature
+15-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:10:5-103
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:10:19-75
+17        android:required="false" />
+17-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:10:76-100
+18    <uses-feature
+18-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:11:5-85
+19        android:name="android.hardware.camera"
+19-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:11:19-57
+20        android:required="false" />
+20-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:11:58-82
+21
+22    <application
+23        android:name="android.app.Application"
+23-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:16:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:18:9-43
+26        android:label="KeyNotes"
+26-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:15:9-33
+27        android:usesCleartextTraffic="true" >
+27-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:17:9-44
+28        <activity
+28-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:19:9-39:20
+29            android:name="com.example.keynotes.MainActivity"
+29-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:20:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:24:13-163
+31            android:exported="true"
+31-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:21:13-36
+32            android:hardwareAccelerated="true"
+32-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:25:13-47
+33            android:launchMode="singleTop"
+33-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:22:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:23:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:26:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:31:13-34:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:32:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:33:15-52
+46
+47            <intent-filter>
+47-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:35:13-38:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:36:17-68
+48-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:36:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:37:17-76
+50-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:37:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:42:9-44:33
+58            android:name="flutterEmbedding"
+58-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:43:13-44
+59            android:value="2" />
+59-->/Users/talidahnurkeyesa/StudioProjects/keynotes_remake/android/app/src/main/AndroidManifest.xml:44:13-30
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] /Users/talidahnurkeyesa/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+67    </application>
+68
+69</manifest>
